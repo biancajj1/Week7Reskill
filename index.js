@@ -12,4 +12,4 @@ const server = http.createServer((req, res)=> {
 const PORT= 4000;
 
 //Listen to Port
-server.listen(PORT, ()=> console.log(PORT))
+server.listen(PORT, ()=> console.log(`server is running on port ${PORT}`))
